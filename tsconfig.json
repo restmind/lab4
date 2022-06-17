@@ -1,0 +1,11 @@
+{
+    "extends": "@tsconfig/node16/tsconfig.json",
+    "include": ["**/*.ts", "**/*.tsx", ".d.ts", "d.js"],
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+    },
+    "exclude": ["node_modules"]
+  }
